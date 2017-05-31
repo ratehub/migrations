@@ -16,13 +16,19 @@
       "email": "patrick@maatwebsite.nl"
     }
   ],
+   "repositories": [
+    { 
+      "type": "git",
+      "url": "https://github.com/ratehub/laravel-doctrine.git"
+    }
+  ],
   "require": {
     "php": ">=5.5.9",
     "doctrine/migrations": "~1.1",
     "illuminate/config": "~5.1",
     "illuminate/contracts": "~5.1",
     "illuminate/console": "~5.1",
-    "laravel-doctrine/orm": "~1.0"
+    "laravel-doctrine/orm": "dev-ratehub-laravel-doctrine"
   },
   "require-dev": {
     "phpunit/phpunit": "~4.0",
